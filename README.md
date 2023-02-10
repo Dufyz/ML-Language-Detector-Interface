@@ -21,6 +21,12 @@ The program learns to differentiate between English and Portuguese on its own fr
 - [Regex](https://docs.python.org/3/library/re.html)
 - [Jupyter Notebook](https://jupyter.org/)
 
+## 👨‍🏫 How to use
+
+- 1 - Download all the files from the repository.
+- 2 - Use the library versions indicated in the "requirements.txt" file
+- 3 - Activate the flask-api server with "flask run" in the file terminal
+
 
 ## ⚠️ Atention
 
