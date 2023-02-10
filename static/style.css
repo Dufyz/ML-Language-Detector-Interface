@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=PT+Sans:wght@400;700&display=swap');
+
+:root {
+    --primary-color: #351C4D;
+    --primary-color-darker: #1F1E1E;
+    --button-color-hover: #303030
+}
+
+
+* {
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body {
+    background-color: var(--primary-color);
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.8rem;
+    line-height: 1.5em;
+    font-family: 'Roboto Slab', serif;
+
+}
+
+.formSection {
+    max-width: 640px;
+    background-color: white;
+    /* margin: 50px auto; */
+    border-radius: 20px;
+    padding: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.formSection h1,
+h3 {
+    text-transform: uppercase;
+}
+
+.formMainContent input {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 1.5rem;
+}
+
+.formMainContent input:focus {
+    border-color: var(--primary-color-darker);
+    color: var(--primary-color);
+}
+
+.formMainContent button {
+    width: 100%;
+    background-color: var(--primary-color-darker);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.formMainContent button {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.formMainContent button:hover {
+    background-color: var(--button-color-hover);
+}
+
+.linhaSeparadora {
+    height: 5px;
+    width: 100%;
+    margin-top: 20px;
+    background-color: var(--primary-color-darker);
+}
+
+.formResultadoData {
+    width: 100%;
+    background-color: var(--primary-color-darker);
+    color: white;
+    border: 2px solid #252F2E;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.formResultadoData:hover {
+    background-color: var(--button-color-hover);
+}
