@@ -1,19 +1,28 @@
-# 🇧🇷 Language Detector 🇬🇧
+# 🐦 🇧🇷 Language Detector 🇬🇧
 
-A language detector made with Python
+A language detector made with Python | Flask | NLTK | SciKit Learn | Regex | HTML | CSS | JavaScript
 
 ## ℹ️ About the project
 
-This program was created as a course project of Alura Academy. The program learn alone about English and Portuguese from some dataframes and become able after it to determine if a sentece that he never saw was writed in Portugues or English. I created two folders for this project where one run as a .ipynb file and other as a .py file. 
+The program learns to differentiate between English and Portuguese on its own from learning based on datasets using machine learning technologies. There is an integration of the machine learning script with the frontend, so that the end user has a pleasant experience.
+
+![t](https://user-images.githubusercontent.com/80853300/218188958-e520f82e-9f05-4756-8b67-ea56c94e6f1d.jpg)
+
 
 ## 📝 Technologies
 
 - [Python](https://www.python.org/)
-- [Jupyter Notebook](https://jupyter.org/)
-- [NLTK](https://www.nltk.org/)
-- [Regex](https://docs.python.org/3/library/re.html)
 - [Scikit Learn](https://scikit-learn.org/stable/)
+- [NLTK](https://www.nltk.org/)
+- [Flask](https://flask.palletsprojects.com/en/2.2.x/)
+- [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+- [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
+- [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+- [Regex](https://docs.python.org/3/library/re.html)
+- [Jupyter Notebook](https://jupyter.org/)
+
 
 ## ⚠️ Atention
 
-That base program is finished but i will still working on it to get a better project
+- Use the library versions indicated in the "requirements.txt" file
+- That's a personal project with no proposal of be serious
